@@ -1,23 +1,23 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     background-color: #f4f4f4;
     color: #333;
 }
 
 .resume {
     max-width: 800px;
-    margin: 20px auto;
+    margin: 5px auto;
     padding: 5px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
 header {
     text-align: center;
-    margin-bottom: 10px;
+    padding: 5px;
 }
 
 header h1 {
@@ -27,7 +27,7 @@ header h1 {
 }
 
 header p {
-    margin: 5px 0;
+    margin: 5px;
 }
 
 header a {
@@ -40,13 +40,13 @@ header a:hover {
 }
 
 section {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 section h2 {
     border-bottom: 2px solid #000306;
     padding-bottom: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: #000306;
 }
 
@@ -56,7 +56,7 @@ section h2 {
 }
 
 .experience .job {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .experience .job h3 {
@@ -86,4 +86,8 @@ li a{
 
 li a:hover {
     text-decoration: underline;
+}
+
+.education p{
+    text-align: center;
 }
